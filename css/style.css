@@ -1,0 +1,112 @@
+html {
+    background-color: #0f1626;
+    color: #f5f5f5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+}
+
+#intro {
+    font-size: 110%;
+    font-size: 2rem;
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    flex-flow: column nowrap;
+    align-items: center; 
+    background-image: linear-gradient(to bottom right, rgb(150, 0, 0), rgb(0, 0, 150));
+}
+
+#intro em {
+    font-size: 125%;
+}
+
+#intro strong {
+    font-size: 175%;
+}
+
+#navbar {
+    font-size: 125%;
+    font-size: 2rem;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 7rem;
+
+}
+
+#navbar a {
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 3%;
+    width: 25%;
+    text-align: center;
+}
+
+#navbar a:hover {
+    background-color: #ab987a; 
+}
+
+#about {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 96%;
+    padding: 2%;
+    align-items: center;
+}
+
+.about_main {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 65%;
+}
+
+.about_title {
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+#about img {
+    height: 100%;
+    width: 35%;
+    justify-content: center;
+    border-radius: 5rem;
+    margin: 1rem;
+
+}
+
+.about_description {
+    margin: 2rem;
+}
+
+#skills {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 96%;
+    padding: 2%;
+}
+
+.skills_container {
+    flex-flow: row nowrap;
+    font-size: 1rem;
+    margin: 0rem 2rem 2rem 2rem;
+}
+
+.skills_title {
+    margin: 2rem;
+    font-size: 2rem;
+
+}
+
+.skills_subtitle {
+    font-size: 1.5rem;
+}
+
+
+
+
+
